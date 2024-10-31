@@ -1,7 +1,7 @@
 # passphraser
 'simple' powershell script for generating new secure passwords / passphrases
 
-DISCLAIMER: I am not a cryptography expert and if I have to tell you not to use this to roll your own crypto, then you shouldn't be using this.
+**DISCLAIMER: I am not a cryptography expert and if I have to tell you not to use this to roll your own crypto, then you shouldn't be using this.**
 
 Draws upon locally defined dictionaries of different language parts of speech to form natural-sounding word 
 combinations that are easy to remmeber, type, and recite. Entropy calculations are given assuming worst-case
@@ -12,7 +12,7 @@ from a list of 5k most commonly used adjectives and 10k most commonly used nouns
 
 
 ```
->passphraser.ps1
+PS >passphraser.ps1
 957*PracticalInversionCanister
 Minimum of 44 bits of entropy. ( 1.52e+013 possible combinations.)
 
